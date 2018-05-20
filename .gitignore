@@ -92,3 +92,8 @@ typings/
 
 # dotenv environment variables file
 .env
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.css
