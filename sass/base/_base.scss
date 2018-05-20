@@ -1,0 +1,18 @@
+* 
+*::after,
+*::before {
+    /* BASIC CSS RESET */
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* define 1rem */
+    /* 10px w/ browser defaults */
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
