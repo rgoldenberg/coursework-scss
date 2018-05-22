@@ -1,5 +1,5 @@
 .btn {
-    font-size: 1.6rem;
+    font-size: $default-font-size;
 
     &:link,
     &:visited {
@@ -52,5 +52,26 @@
     &--header {
         animation: moveInBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
+    }
+}
+
+.btn-text {
+    &:link,
+    &:visited {
+        font-size: $default-font-size;
+        display: inline-block;
+        color: $color-primary;
+        text-decoration: none;
+
+        border-bottom: 1px solid $color-primary;
+        padding: 3px;
+    }
+
+    &:hover {
+
+    }
+
+    &:active {
+        
     }
 }
