@@ -96,4 +96,4 @@ typings/
 ### Sass ###
 .sass-cache/
 *.css.map
-*.css
+css/compiled/
