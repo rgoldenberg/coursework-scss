@@ -1,6 +1,7 @@
 .story {
     width: 75%;
     padding: 6rem;
+    padding-left: 9rem;
     margin: 0 auto;
     box-shadow: 0 3rem 6rem rgba($color-black, .1);
     background-color: rgba($color-white, .6);
@@ -21,13 +22,14 @@
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
         position: relative;
+        transform: translateX(-3rem) skewX(12deg);
     }
 
     &__img {
         height: 100%;
         transform: translateX(-4rem) scale(1.4);
         backface-visibility: hidden;
-        transition: transform .5s;
+        transition: all .5s;
     }
 
     &__caption {

@@ -80,7 +80,7 @@
         color: $color-white;
         text-align: right;
         position: absolute;
-        top: 8.5rem;
+        top: 12rem;
         right: 2rem;
         width: 75%;
     }
@@ -110,9 +110,10 @@
     }
 
     &__details {
-        padding: 2.5rem;
+        padding: 3rem;
 
         ul {
+            margin: 0 auto;
             list-style: none;
             width: 80%;
 
