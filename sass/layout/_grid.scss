@@ -1,9 +1,17 @@
 .row {
     max-width: $grid-width;
     margin: 0 auto;
+
+    @include response(tablet) {
+        max-width: 50rem;;
+    }
     
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
+
+        @include response(tablet) {
+            margin-bottom: $gutter-vertical-small;
+        }
     }
 
     @include clearfix;
@@ -11,8 +19,17 @@
     [class^='col-'] {
         float: left;
 
+        @include response(tablet) {
+            width: 100% !important;
+        }
+
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
+        
+            @include response(tablet) {
+                margin-right: 0;
+                margin-bottom: $gutter-vertical-small;
+            }
         }
     }
 
