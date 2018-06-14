@@ -11,8 +11,25 @@ html {
     /* define 1rem */
     /* 10px w/ browser defaults */
     font-size: 62.5%;
+
+    @include response(tablet-landscape) {
+        font-size: 56.25%;
+    }
+
+    @include response(tablet) {
+        font-size: 50%;
+    }
+
+    @include response(big-desktop) {
+        font-size: 75%;
+    }
 }
 
 body {
     box-sizing: border-box;
+    padding: 3rem;
+
+    @include response(tablet) {
+        padding: 0;
+    }
 }
