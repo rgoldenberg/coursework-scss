@@ -3,7 +3,8 @@
     margin: 0 auto;
 
     @include response(tablet) {
-        max-width: 50rem;;
+        max-width: 50rem;
+        padding: 0 3rem;
     }
     
     &:not(:last-child) {
